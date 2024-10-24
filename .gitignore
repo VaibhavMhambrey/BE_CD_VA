@@ -1,0 +1,4 @@
+# Ignore all
+*.c
+*.h
+*.exe
