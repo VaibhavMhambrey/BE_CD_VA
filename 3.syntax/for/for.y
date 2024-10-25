@@ -32,7 +32,15 @@ incr: ID PLUS { printf("Increment operation\n"); }
 
 relop: '>' | '<' | GTE | LTE { printf("Relational operator used\n"); }
 ;
-stmt_list: ID '=' ID
+
+stmt_list: stmt ';' stmt_list | stmt ';'
+;
+
+stmt: ID '=' EXP { printf("Assignment statement\n"); }
+    | ID { printf("Variable\n"); }
+;
+
+EXP: EXP '+' EXP | EXP '-' EXP | EXP '*' EXP | ID
 ;
 
 %%
