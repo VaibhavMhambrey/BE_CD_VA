@@ -1,0 +1,28 @@
+
+t0=a > 4
+t1=b+c
+t2=a=t1
+t3=x > 5
+t4=b+c
+t5=b=t4
+t6=i+1
+t7=i=t6
+t100=if(t3){t5 ; t7}
+t0=a > 4
+t1=b+c
+t2=a=t1
+t3=x > 5
+t4=b+c
+t5=b=t4
+t6=i+1
+t7=i=t6
+t100=if(t3){t5 ; t7}
+t0=a > 4
+t1=b+c
+t2=a=t1
+t3=x > 5
+t4=e+f
+t5=d=t4
+t6=i*j
+t7=i=t6
+t100=if(t3){t5 ; t7}

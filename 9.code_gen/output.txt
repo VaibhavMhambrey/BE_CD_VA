@@ -1,0 +1,12 @@
+
+0]mov A, y;add A, 4; mov t, A;
+0]mov A, y;add A, 4; mov t, A;
+1]mov x, t
+
+2]mov A, i;add A, 1; mov t, A;
+2]mov A, i;add A, 1; mov t, A;
+3]mov i, t
+
+3]mov i, t
+
+4]if not a > b, jmp 5
